@@ -87,6 +87,9 @@ Sunucu tarafında oluşturulan grafiksel kullanıcı arayüzü (GUI), kullanıc�
 | Kod ile       | `receive_packets(simulate_loss=True)` çağrısı ile %20 rastgele paket kaybı |
 | Clumsy aracı  | GUI üzerinden UDP portuna gelen trafiğe %20 drop uygulaması yapılır     |
 
+![image](https://github.com/user-attachments/assets/6c05eddb-e03f-439d-9368-07faa4deb485)
+
+
 ## 📈 Performans Analizi
 
 - `ping 8.8.8.8` ile RTT ölçümü
