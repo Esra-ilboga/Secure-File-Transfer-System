@@ -1,10 +1,5 @@
 # 🔐 Advanced Secure File Transfer System with Low-Level IP Processing & Network Performance Analysis
 
-> **Proje Sahibi:** Esra İLBOĞA  
-> **Numara:** 21360859063  
-> **Ders:** BLM0326 - Bilgisayar Ağları (Bahar 2025)  
-> **Üniversite:** Bursa Teknik Üniversitesi – Bilgisayar Mühendisliği
-
 ## 📌 Amaç
 
 Bu proje, güvenli dosya aktarımını hem TCP hem de UDP üzerinden gerçekleştiren, ağ katmanında IP manipülasyonu, saldırı simülasyonu ve performans analizini içeren gelişmiş bir sistem sunar. AES-256 ile şifreleme, RSA-2048 ile anahtar koruma, SHA-256 ile bütünlük kontrolü sağlanmıştır.
