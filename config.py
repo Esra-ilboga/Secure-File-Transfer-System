@@ -1,0 +1,10 @@
+IP = "127.0.0.1"
+PORT = 5005
+CHUNK = 1024
+DOSYA_YOLU = "test_dosyasi/deneme.txt"
+COZULEN_DOSYA = "test_dosyasi/cozulmus_deneme.txt"
+RSA_OZEL = "rsa_ozel.pem"
+RSA_GENEL = "rsa_genel.pem"
+AUTH_TOKEN = "secret123"
+PORT_TCP = 5006
+DEFAULT_PROTOCOL = "UDP"
