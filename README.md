@@ -91,6 +91,7 @@ Sunucu tarafında oluşturulan grafiksel kullanıcı arayüzü (GUI), kullanıc�
 - `tabulate` ile tablo oluşturulup `performans_raporu.txt` dosyasına yazılır
 
 ### Örnek Tablo:
+![image](https://github.com/user-attachments/assets/a871d8c8-4780-4758-a3e4-179fe68ca421)
 
 
 ## ⚠️ Eksikler ve Geliştirme Alanları
