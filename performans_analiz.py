@@ -3,8 +3,8 @@ import platform
 import re
 from tabulate import tabulate
 
-# iperf3.exe dosyasının bulunduğu tam yol
-IPERF_PATH = r"C:\Users\ilbog\Downloads\iperf3.19_64\iperf3.19_64\iperf3.exe"
+# iperf3.exe dosyasının bulunduğu tam yol girilmeli
+IPERF_PATH = r"C:\...\iperf3.19_64\iperf3.exe"
 
 def ping(host="8.8.8.8", count=4):
     """Gerçekçi RTT için 8.8.8.8'e ping atar."""
