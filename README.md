@@ -29,10 +29,26 @@ Bu proje, güvenli dosya aktarımını hem TCP hem de UDP üzerinden gerçekleş
 ## 🖥️ Arayüzler (GUI)
 
 ### 🔹 Sunucu GUI
-- Token doğrulama
-- Protokol seçimi (TCP/UDP)
-- UDP için paket kaybı simülasyonu (%20)
-- Dinleme başlatma ve durum bildirimi
+Sunucu tarafında oluşturulan grafiksel kullanıcı arayüzü (GUI), kullanıcı dostu bir deneyim sunarak aşağıdaki işlevleri yerine getirir:
+
+- **Token Doğrulama**  
+  İstemciden gelen token değeri, GUI üzerinden girilen doğrulama anahtarı ile karşılaştırılır. Eşleşme sağlanmazsa dosya çözülmez.
+
+- **Protokol Seçimi (TCP / UDP)**  
+  Kullanıcı, veri aktarımında hangi protokolün (TCP veya UDP) kullanılacağını GUI üzerinden seçebilir.
+
+- **UDP için Paket Kaybı Simülasyonu**  
+  GUI’de yer alan bir seçenekle %20 oranında rastgele paket kaybı simülasyonu aktif edilebilir (yalnızca UDP için geçerlidir).
+
+- **Dinlemeyi Başlat**  
+  Girilen token ve seçilen protokol doğrultusunda sunucu, dosya transferi için dinlemeye başlar.
+
+- **Durum Göstergesi**  
+  GUI üzerinden "Beklemede", "Dinleniyor", "Dosya çözüldü", "Token hatalı" gibi anlık durumlar kullanıcıya bildirilir.
+
+#### 📸 Arayüz Görseli
+
+![Sunucu Arayüzü](![image](https://github.com/user-attachments/assets/87770241-596f-4bae-80fb-d81d35d2d8bf))
 
 ### 🔹 İstemci GUI
 - Token girişi
