@@ -48,12 +48,20 @@ Sunucu tarafında oluşturulan grafiksel kullanıcı arayüzü (GUI), kullanıc�
 
 #### 📸 Arayüz Görseli
 
-![Sunucu Arayüzü](![image](https://github.com/user-attachments/assets/87770241-596f-4bae-80fb-d81d35d2d8bf))
+![Sunucu Arayüzü](https://github.com/user-attachments/assets/87770241-596f-4bae-80fb-d81d35d2d8bf)
 
 ### 🔹 İstemci GUI
-- Token girişi
-- Protokol seçimi
-- Dosya(lar) seçip gönderme (çoklu dosya destekli)
+
+İstemci (Client) arayüzü, kullanıcıların dosya(ları) güvenli bir şekilde gönderebilmesi için tasarlanmıştır. Gelişmiş GUI sayesinde aşağıdaki özellikler sunulmaktadır:
+
+- **Token Girişi**: Sunucu tarafında doğrulama yapılabilmesi için token değeri girilmelidir.
+- **Protokol Seçimi**: Kullanıcı UDP veya TCP protokolünü seçerek dosya gönderimini başlatabilir.
+- **Dosya Seçimi ve Gönderme**: Tekli veya çoklu dosya seçimi yapılabilir. Seçilen dosyalar AES-256 ile şifrelenerek gönderilir.
+- **Durum Göstergesi**: Her bir dosyanın başarıyla gönderilme durumu GUI üzerinden izlenebilir.
+
+#### 📸 Arayüz Görseli Arayüz Görseli:
+![İstemci Arayüzü](https://github.com/user-attachments/assets/e91d0f64-9577-4d86-b457-6c2469811196)
+
 
 ## 🛰️ IP Katmanı Manipülasyonu
 
