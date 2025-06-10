@@ -77,6 +77,9 @@ Sunucu tarafında oluşturulan grafiksel kullanıcı arayüzü (GUI), kullanıc�
 - Payload: `MITM Attack`
 - Wireshark ile analiz edilerek kaynağın sahte olduğu doğrulandı.
 
+![image](https://github.com/user-attachments/assets/9a93d54c-b0d5-40da-b951-2b2e1fb95985)
+
+
 ## 💥 Paket Kaybı Simülasyonu
 
 | Yöntem        | Açıklama                                                                 |
