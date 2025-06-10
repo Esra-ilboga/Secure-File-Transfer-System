@@ -59,7 +59,7 @@ Sunucu tarafında oluşturulan grafiksel kullanıcı arayüzü (GUI), kullanıc�
 - **Dosya Seçimi ve Gönderme**: Tekli veya çoklu dosya seçimi yapılabilir. Seçilen dosyalar AES-256 ile şifrelenerek gönderilir.
 - **Durum Göstergesi**: Her bir dosyanın başarıyla gönderilme durumu GUI üzerinden izlenebilir.
 
-#### 📸 Arayüz Görseli Arayüz Görseli:
+#### 📸 Arayüz Görseli:
 ![İstemci Arayüzü](https://github.com/user-attachments/assets/e91d0f64-9577-4d86-b457-6c2469811196)
 
 
